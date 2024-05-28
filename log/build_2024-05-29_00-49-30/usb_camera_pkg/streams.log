@@ -1,0 +1,22 @@
+[0.474s] Invoking command in '/home/weng/wengkunduo_ws/robot_vision_ws/src/usb_camera_pkg': PYTHONPATH=/home/weng/wengkunduo_ws/robot_vision_ws/build/usb_camera_pkg/prefix_override:/home/weng/wengkunduo_ws/robot_vision_ws/install/usb_camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/usb_camera_pkg build --build-base /home/weng/wengkunduo_ws/robot_vision_ws/build/usb_camera_pkg/build install --record /home/weng/wengkunduo_ws/robot_vision_ws/build/usb_camera_pkg/install.log --single-version-externally-managed install_data
+[0.576s] running egg_info
+[0.577s] writing ../../build/usb_camera_pkg/usb_camera_pkg.egg-info/PKG-INFO
+[0.577s] writing dependency_links to ../../build/usb_camera_pkg/usb_camera_pkg.egg-info/dependency_links.txt
+[0.577s] writing entry points to ../../build/usb_camera_pkg/usb_camera_pkg.egg-info/entry_points.txt
+[0.577s] writing requirements to ../../build/usb_camera_pkg/usb_camera_pkg.egg-info/requires.txt
+[0.577s] writing top-level names to ../../build/usb_camera_pkg/usb_camera_pkg.egg-info/top_level.txt
+[0.577s] reading manifest file '../../build/usb_camera_pkg/usb_camera_pkg.egg-info/SOURCES.txt'
+[0.578s] adding license file 'LICENSE'
+[0.578s] writing manifest file '../../build/usb_camera_pkg/usb_camera_pkg.egg-info/SOURCES.txt'
+[0.578s] running build
+[0.578s] running build_py
+[0.578s] running install
+[0.578s] running install_lib
+[0.579s] running install_data
+[0.579s] running install_egg_info
+[0.580s] removing '/home/weng/wengkunduo_ws/robot_vision_ws/install/usb_camera_pkg/lib/python3.10/site-packages/usb_camera_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.580s] Copying ../../build/usb_camera_pkg/usb_camera_pkg.egg-info to /home/weng/wengkunduo_ws/robot_vision_ws/install/usb_camera_pkg/lib/python3.10/site-packages/usb_camera_pkg-0.0.0-py3.10.egg-info
+[0.580s] running install_scripts
+[0.590s] Installing usb_cam_rgb_node script to /home/weng/wengkunduo_ws/robot_vision_ws/install/usb_camera_pkg/lib/usb_camera_pkg
+[0.590s] writing list of installed files to '/home/weng/wengkunduo_ws/robot_vision_ws/build/usb_camera_pkg/install.log'
+[0.603s] Invoked command in '/home/weng/wengkunduo_ws/robot_vision_ws/src/usb_camera_pkg' returned '0': PYTHONPATH=/home/weng/wengkunduo_ws/robot_vision_ws/build/usb_camera_pkg/prefix_override:/home/weng/wengkunduo_ws/robot_vision_ws/install/usb_camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/usb_camera_pkg build --build-base /home/weng/wengkunduo_ws/robot_vision_ws/build/usb_camera_pkg/build install --record /home/weng/wengkunduo_ws/robot_vision_ws/build/usb_camera_pkg/install.log --single-version-externally-managed install_data

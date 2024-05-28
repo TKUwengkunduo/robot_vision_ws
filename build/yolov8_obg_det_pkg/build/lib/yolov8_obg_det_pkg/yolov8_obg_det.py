@@ -62,13 +62,14 @@ class YOLOv8ObjDetNode(Node):
             class_ids = result.boxes.cls  # 檢測類別ID
 
             for box, confidence, class_id in zip(boxes, confidences, class_ids):
-                detection = {
-                    'box': box.tolist(),
-                    'confidence': float(confidence),
-                    'class_id': int(class_id),
-                    'class_name': self.model.names[int(class_id)]
-                }
-                detections.append(detection)
+                if confidence>0.6:
+                    detection = {
+                        'box': box.tolist(),
+                        'confidence': float(confidence),
+                        'class_id': int(class_id),
+                        'class_name': self.model.names[int(class_id)]
+                    }
+                    detections.append(detection)
 
         self.get_logger().info(f'Detections: {detections}')
 
