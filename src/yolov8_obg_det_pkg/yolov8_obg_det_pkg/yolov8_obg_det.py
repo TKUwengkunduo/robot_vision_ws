@@ -8,7 +8,7 @@ import json
 import os
 from ament_index_python.packages import get_package_share_directory
 
-class YOLOv8Node(Node):
+class YOLOv8ObjDetNode(Node):
     def __init__(self):
         super().__init__('yolov8_obj_det_node')
         
@@ -80,7 +80,7 @@ class YOLOv8Node(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = YOLOv8Node()
+    node = YOLOv8ObjDetNode()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()

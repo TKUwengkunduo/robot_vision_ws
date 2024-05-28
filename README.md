@@ -3,8 +3,9 @@
 This repository contains the implementation of a robot vision system using YOLOv8 and ROS 2. The system includes object detection and image display nodes for real-time processing and visualization.
 
 ## Task List
-- [x] YOLOv8 Object Detection
+- [x] USB Camera
 - [x] Display Object Detection Result
+- [x] YOLOv8 Object Detection
 - [ ] YOLOv7 Object Detection & Instance Segmentation
 - [ ] YOLOv8 Instance Segmentation
 - [ ] YOLOv9 Object Detection & Instance Segmentation

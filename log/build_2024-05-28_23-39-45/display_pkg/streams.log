@@ -1,0 +1,38 @@
+[0.478s] Invoking command in '/home/weng/wengkunduo_ws/robot_vision_ws/src/display_pkg': PYTHONPATH=/home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/prefix_override:/home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/display_pkg build --build-base /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build install --record /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/install.log --single-version-externally-managed install_data
+[0.577s] running egg_info
+[0.577s] creating ../../build/display_pkg/display_pkg.egg-info
+[0.577s] writing ../../build/display_pkg/display_pkg.egg-info/PKG-INFO
+[0.577s] writing dependency_links to ../../build/display_pkg/display_pkg.egg-info/dependency_links.txt
+[0.577s] writing entry points to ../../build/display_pkg/display_pkg.egg-info/entry_points.txt
+[0.577s] writing requirements to ../../build/display_pkg/display_pkg.egg-info/requires.txt
+[0.577s] writing top-level names to ../../build/display_pkg/display_pkg.egg-info/top_level.txt
+[0.577s] writing manifest file '../../build/display_pkg/display_pkg.egg-info/SOURCES.txt'
+[0.578s] reading manifest file '../../build/display_pkg/display_pkg.egg-info/SOURCES.txt'
+[0.578s] adding license file 'LICENSE'
+[0.578s] writing manifest file '../../build/display_pkg/display_pkg.egg-info/SOURCES.txt'
+[0.578s] running build
+[0.578s] running build_py
+[0.578s] creating /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build
+[0.579s] creating /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build/lib
+[0.579s] creating /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build/lib/display_pkg
+[0.579s] copying display_pkg/display_node.py -> /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build/lib/display_pkg
+[0.579s] copying display_pkg/__init__.py -> /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build/lib/display_pkg
+[0.579s] running install
+[0.579s] running install_lib
+[0.579s] creating /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/python3.10/site-packages/display_pkg
+[0.579s] copying /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build/lib/display_pkg/display_node.py -> /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/python3.10/site-packages/display_pkg
+[0.579s] copying /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build/lib/display_pkg/__init__.py -> /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/python3.10/site-packages/display_pkg
+[0.579s] byte-compiling /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/python3.10/site-packages/display_pkg/display_node.py to display_node.cpython-310.pyc
+[0.579s] byte-compiling /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/python3.10/site-packages/display_pkg/__init__.py to __init__.cpython-310.pyc
+[0.579s] running install_data
+[0.580s] creating /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/share/ament_index
+[0.580s] creating /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/share/ament_index/resource_index
+[0.580s] creating /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/share/ament_index/resource_index/packages
+[0.580s] copying resource/display_pkg -> /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/share/ament_index/resource_index/packages
+[0.580s] copying package.xml -> /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/share/display_pkg
+[0.580s] running install_egg_info
+[0.581s] Copying ../../build/display_pkg/display_pkg.egg-info to /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/python3.10/site-packages/display_pkg-0.0.0-py3.10.egg-info
+[0.581s] running install_scripts
+[0.590s] Installing display_node script to /home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/display_pkg
+[0.590s] writing list of installed files to '/home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/install.log'
+[0.606s] Invoked command in '/home/weng/wengkunduo_ws/robot_vision_ws/src/display_pkg' returned '0': PYTHONPATH=/home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/prefix_override:/home/weng/wengkunduo_ws/robot_vision_ws/install/display_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/display_pkg build --build-base /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/build install --record /home/weng/wengkunduo_ws/robot_vision_ws/build/display_pkg/install.log --single-version-externally-managed install_data

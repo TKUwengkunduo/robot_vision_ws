@@ -1,0 +1,3 @@
+[console_scripts]
+yolov8_obg_det = yolov8_obg_det_pkg.yolov8_obg_det:main
+

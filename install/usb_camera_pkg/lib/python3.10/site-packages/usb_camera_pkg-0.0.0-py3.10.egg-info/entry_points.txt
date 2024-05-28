@@ -1,0 +1,3 @@
+[console_scripts]
+usb_cam_rgb_node = usb_camera_pkg.usb_camera_rgb_node:main
+
