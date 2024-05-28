@@ -1,3 +1,0 @@
-[console_scripts]
-display_node = display_pkg.display_node:main
-
