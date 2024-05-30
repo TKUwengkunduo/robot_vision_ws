@@ -33,7 +33,7 @@ This repository contains the implementation of a robot vision system using YOLOv
 ## Running the USB Camera Node
    ```bash
    source install/setup.bash
-   ros2 ros2 run usb_camera_pkg usb_cam_rgb_node
+   ros2 run usb_camera_pkg usb_cam_rgb_node
    ```
 
 ## Running the YOLOv8 Object Detection Node
